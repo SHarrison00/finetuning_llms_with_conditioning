@@ -104,6 +104,6 @@ Screenshots of results can be shown below:
 - [@sharrison00](https://github.com/sharrison00)
 
 ## Documentation
-Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing)
+Please read the full report of the project [here](https://drive.google.com/file/d/1-lac-XNLTj-8RI8X6_g2iqUPp0JDxfWo/view?usp=sharing).
 
-Link to video [here](https://drive.google.com/file/d/1bimKTSbA4TTgJOIKiICw0iY0xpcYuSJd/view?usp=sharing)
+Link to video [here](https://drive.google.com/file/d/1bimKTSbA4TTgJOIKiICw0iY0xpcYuSJd/view?usp=sharing).
