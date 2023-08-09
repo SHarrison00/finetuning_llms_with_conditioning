@@ -2,13 +2,13 @@
 
 ## Project Description
 
-UCL Module Project: Statistical Natural Language Processing (COMP0087)
+- **UCL Module Project:** Statistical Natural Language Processing (COMP0087)
 
-Date: April 2023
+- **Date:** April 2023
 
-This project explores finetuning large language models (LLMs) with multiple control tokens, in order to reduce generated content that is misaligned to human preferences. Specifically, content that is toxic and negative. 
+This project explores finetuning large language models (LLMs) with multiple control tokens, in order to reduce generated content misaligned with human preferences. Specifically, content that is toxic and negative. Performance of our proposed LLM is evaluated based on its ability to generate non-toxic and positive content. 
 
-Performance of our proposed LLM is evaluated based on its ability to generate non-toxic and positive content. Experiment results demonstrate conditioning LLMs with multiple control tokens is feasible and *improves alignment with human preferences*. These findings suggest fine-tuned LLMs have the potential to generate conten free of bias and offensive language, which could be useful in developing safe language models for public use. Further research, however, is needed to optimise conditioning on multiple tokens.
+Experiment results demonstrate conditioning LLMs with multiple control tokens is feasible and *improves alignment with human preferences*. These findings suggest fine-tuned LLMs have the potential to generate content free of bias and offensive language, which could be useful in developing safe language models for public use. Further research, however, is needed to optimise conditioning on multiple tokens.
 
 ## Setup
 
