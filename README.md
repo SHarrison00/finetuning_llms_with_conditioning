@@ -8,7 +8,7 @@ Date: April 2023
 
 **Summary:** This project explores finetuning large language models (LLMs) with multiple control tokens, in order to reduce generated content misaligned with human preferences. Specifically, content that is toxic and negative. Performance of our proposed LLM is evaluated based on its ability to generate non-toxic and positive content. 
 
-**Results:** Experiment results demonstrate conditioning LLMs with multiple control tokens is feasible and **improves alignment with human preferences**. These findings suggest fine-tuned LLMs have the potential to generate content free of bias and offensive language, which could be useful in developing safe language models for public use. Further research, however, is needed to optimise conditioning on multiple tokens. 
+**Results:** Experiment results show conditioning LLMs with multiple control tokens is feasible and **improves alignment with human preferences**. These findings suggest fine-tuned LLMs have the potential to generate content free of bias and offensive language, which could be useful in developing safe language models for public use. Further research, however, is needed to optimise conditioning on multiple tokens. 
 
 Additionally, this project was awarded a distinction, ranking 2nd out of approximately 40 group-projects. 
 
