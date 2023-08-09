@@ -6,7 +6,9 @@ UCL Module Project: Statistical Natural Language Processing (COMP0087)
 
 Date: April 2023
 
-This project investigates the effectiveness of finetuning language models (LMs) with multiple control tokens to reduce generated content that is misalignment to human preferences; specifically, content that is toxic and negative. The performance of our proposed LM is evaluated based on its ability to generate non-toxic and positive content. Experiment results demonstrate that conditioning with multiple control tokens is feasible and can improve the LM alignment with human preferences. Therefore, these findings suggest that fine-tuned LMs have the potential to generate content that is free of bias or offensive language, which could be useful in developing safe language models for public use. Further research, however, is needed to optimise conditioning on multiple tokens.
+This project explores finetuning large language models (LLMs) with multiple control tokens, in order to reduce generated content that is misaligned to human preferences. Specifically, content that is toxic and negative. 
+
+Performance of our proposed LLM is evaluated based on its ability to generate non-toxic and positive content. Experiment results demonstrate conditioning LLMs with multiple control tokens is feasible and *improves alignment with human preferences*. These findings suggest fine-tuned LLMs have the potential to generate conten free of bias and offensive language, which could be useful in developing safe language models for public use. Further research, however, is needed to optimise conditioning on multiple tokens.
 
 ## Setup
 
@@ -45,7 +47,7 @@ pip install -r requirements.txt
 
 ### Data
 
-To fine-tune the LM, we use randomly sampled sentences from the diverse data set the Pile (Gao et al., 2021). To ensure data compatibility with the LM, we exclude data sources that contain noncompatible content. This content includes coding and multi-lingual information from sources such as
+To fine-tune the LLMs, we use randomly sampled sentences from the diverse data set the Pile (Gao et al., 2021). To ensure data compatibility with the LM, we exclude data sources that contain noncompatible content. This content includes coding and multi-lingual information from sources such as
 GitHub and EuroParl. We take a 2% sample from the remaining data sources. The sample is processed by removing special characters; adding an <|endoftext|> token to the end of each sentence; and removing short,
 low-quality sentences. Control tokens for toxicity; <|toxic|> and <|nontoxic|>; and sentiment; <|pos|>
 and <|neg|>; are pre-pended to the processed sentences, based on the classification provided by Detoxify and VADER, respectively. Classifier tokens are not added to a random 1% of the sampled sentences to maintain alignment with the LM, as per Korbak et al. (2023). The resulting training data set is comprised of 800K sentences, and 25M tokens.
