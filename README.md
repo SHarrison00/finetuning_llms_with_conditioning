@@ -1,5 +1,3 @@
-# finetuning-llms-with-conditioning
-
 ## Project Description
 
 UCL Module Project: Statistical Natural Language Processing (COMP0087)
